@@ -10,13 +10,19 @@ export default function Home() {
         <meta name="description" content="Prabhav's Personal profile" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <nav className="sm:flex sm:justify-between sm:space-x-4 sm:py-6 sm:bg-gray-50 sm:w-screen sm:rounded-b-md">
-        <img
-          src="./logo-nobg-new.png"
-          width="5%"
+      <nav className="sm:flex sm:justify-between dark:bg-black sm:space-x-4 sm:py-6 sm:bg-gray-50 sm:w-screen sm:rounded-b-md">
+        {/* <img
+          src="./logo.png"
+          width="10%"
           height="2%"
           className="ml-4"
-        ></img>
+        ></img> */}
+        <div className="logo font-mono ml-4">
+          <h2 className="text-3xl">
+            <span className="text-blue-700 dark:text-blue-300">&lt;</span>
+            <span className="text-pink-400 dark:text-terminal">PK</span><span className="text-blue-700 dark:text-blue-300">/&gt;</span>
+          </h2>
+        </div>
         <div className="flex justify-center items-center">
           {[
             ["Home", "/dashboard", 1],
@@ -25,36 +31,18 @@ export default function Home() {
           ].map(([title, url, index]) => (
             <a
               // href={url}
-              className="rounded-lg px-3 py-2 text-slate-400 font-semibold text-xl hover:bg-slate-100 hover:decoration-4 hover:text-slate-900 cursor-pointer duration-250"
+              className="px-3 py-2 text-blue-500 dark:text-grass dark:hover:text-black font-semibold text-xl hover:font-bold hover:decoration-4 dark:hover:text-terminal duration-250 border-b-2 border-double border-transparent hover:border-current cursor-pointer select-none"
               key={index}
             >
               {title}
             </a>
           ))}
         </div>
-        {/* <div class="flex flex-col justify-center">
-          <div class="form-check form-switch ml-16">
-            <input
-              className="form-check-input appearance-none w-9 rounded-full float-left h-5 align-top bg-white bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm"
-              type="checkbox"
-              role="switch"
-              id="flexSwitchCheckDefault"
-            />
-          </div>
-          <div>
-            <label
-              className="form-check-label inline-block text-gray-800"
-              for="flexSwitchCheckDefault"
-            >
-              Theme
-            </label>
-          </div>
-        </div> */}
         <div className="px-4 flex justify-center items-center">
           <button
             aria-label="Toggle Dark Mode"
             type="button"
-            className="w-10 h-10 rounded-full bg-slate-400 flex justify-center items-center"
+            className="w-10 h-10 rounded-full bg-slate-200 dark:bg-gray-900 border-4 border-pink-400 dark:border-terminal flex justify-center items-center"
             id="flexSwitchCheckDefault"
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
           >
@@ -78,18 +66,18 @@ export default function Home() {
         </div>
         <div className="pt-16 text-center text-lg w-1/2">
           <header className="mb-4 group text-blue-700">
-            <h2 className="mb-1 font-mono text-xl dark:text-green-400 md:text-2xl">
-              Welcome to <br className="block md:hidden" />
+            <h2 className="mb-1 font-mono text-xl dark:text-terminal md:text-2xl">
+              Hello <br className="block md:hidden" />
               <span className="inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change">
-                Prabhav's world!
+                world!
               </span>
-              <span className="box-border inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-12 animate-cursor will-change"></span>
+              <span className="box-border inline-block w-1 h-10 ml-2 mb-2 bg-black dark:bg-white md:-mb-4 md:h-12 animate-cursor will-change"></span>
             </h2>
             {/* <div className="text-xl font-semibold md:text-3xl">
               developer by choice and designer for fun
             </div> */}
           </header>
-          <p className="text-left">
+          <p className="text-left w-11/12 pl-4">
             I am a growing front-end developer with a keen interest in learning
             backend programming in python. I have worked on many personal sample
             website projects with HTML5, CSS3, JavaScript in the past 3 years,
