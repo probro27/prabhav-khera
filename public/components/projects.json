@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "name": "Vision- The search Engine",
+        "tech": "Python, BeautifulSoup, NodeJS, ExpressJS, NextJS, TailwindCSS",
+        "description": "Aliqua esse ipsum duis magna dolore. Commodo irure incididunt velit mollit exercitation eu. Aliquip reprehenderit est excepteur id irure id deserunt reprehenderit. In est dolore et tempor ea cupidatat magna ipsum dolore voluptate minim. Nostrud proident ut ex esse dolor laboris excepteur eu irure. Dolore aute velit labore enim laboris amet."
+    }, 
+    {
+        "id":2,
+        "name": "PriceMatch",
+        "tech":"Google Cloud Vision, Python, Flask, ReactJS, Firebase",
+        "description":"Aliqua esse ipsum duis magna dolore. Commodo irure incididunt velit mollit exercitation eu. Aliquip reprehenderit est excepteur id irure id deserunt reprehenderit. In est dolore et tempor ea cupidatat magna ipsum dolore voluptate minim. Nostrud proident ut ex esse dolor laboris excepteur eu irure. Dolore aute velit labore enim laboris amet."
+    }
+]

@@ -1,5 +1,7 @@
 import Head from "next/head";
 import { useTheme } from "next-themes";
+import Image from "next/image";
+import Projects from "../public/components/Projects";
 
 export default function Home() {
   const { theme, setTheme } = useTheme("dark");
@@ -20,7 +22,8 @@ export default function Home() {
         <div className="logo font-mono ml-4">
           <h2 className="text-3xl">
             <span className="text-blue-700 dark:text-blue-300">&lt;</span>
-            <span className="text-pink-400 dark:text-terminal">PK</span><span className="text-blue-700 dark:text-blue-300">/&gt;</span>
+            <span className="text-pink-400 dark:text-terminal">PK</span>
+            <span className="text-blue-700 dark:text-blue-300">/&gt;</span>
           </h2>
         </div>
         <div className="flex justify-center items-center">
@@ -31,7 +34,7 @@ export default function Home() {
           ].map(([title, url, index]) => (
             <a
               // href={url}
-              className="px-3 py-2 text-blue-500 dark:text-grass dark:hover:text-black font-semibold text-xl hover:font-bold hover:decoration-4 dark:hover:text-terminal duration-250 border-b-2 border-double border-transparent hover:border-current cursor-pointer select-none"
+              className="px-3 py-2 text-blue-500 dark:text-rose-300 dark:hover:text-black font-semibold text-xl hover:font-bold hover:decoration-4 dark:hover:text-rose-500 duration-250 border-b-2 border-double border-transparent hover:border-current cursor-pointer select-none"
               key={index}
             >
               {title}
@@ -58,13 +61,13 @@ export default function Home() {
         </div>
       </nav>
       {/* <h1 className="text-3xl font-bold text-center underline">Hello world!</h1> */}
-      <div className="flex flex-row justify-around">
-        <div className="flex justify-center w-1/2 items-center py-16">
-          <div className="w-1/2">
-            <img src="./profile.jpg" width="90%" className="rounded-lg"></img>
+      <div className="flex flex-col sm:flex-row justify-around">
+        <div className="flex justify-center w-full sm:w-1/2 items-center py-16">
+          <div className="w-full sm:w-1/2">
+            <Image alt="profile" src="/profile.jpg" width="80%" height="100%" layout="responsive" className="rounded-lg"></Image>
           </div>
         </div>
-        <div className="pt-16 text-center text-lg w-1/2">
+        <div className="pt-16 text-center text-lg w-full sm:w-1/2">
           <header className="mb-4 group text-blue-700">
             <h2 className="mb-1 font-mono text-xl dark:text-terminal md:text-2xl">
               Hello <br className="block md:hidden" />
@@ -87,7 +90,7 @@ export default function Home() {
             previous edition of the MUN. I am also a website designer as I have
             a working knowledge of Adobe XD and can work in UI/UX design roles.
             I have an orientation towards leadership roles as I build my
-            school's first Computer Club, which currently has more than 200
+            schools first Computer Club, which currently has more than 200
             students as members, and I trained them in Web Development and UI/UX
             design. I am currently interested in building new projects so I am
             trying to take part in a lot of Hackathons and delving into
@@ -95,6 +98,25 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <div className="flex justify-center">
+        <svg className="animate-bounce w-10 h-10">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z"
+            />
+          </svg>
+        </svg>
+      </div>
+      <Projects />
     </div>
   );
 }

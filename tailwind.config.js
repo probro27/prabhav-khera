@@ -13,7 +13,7 @@ module.exports = {
       },
       animation: {
         // cursor: 'cursor .6s linear infinite alternate',
-        type: 'type 2.7s ease-out .8s infinite alternate both',
+        type: 'type 1.4s ease-out .4s infinite alternate both',
       },
       keyframes: {
         type: {
