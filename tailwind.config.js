@@ -7,13 +7,16 @@ module.exports = {
   theme: {
     
     extend: {
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"]
+      },
       colors:{
         'terminal': '#39ff14',
         'grass': '#90EE90',
       },
       animation: {
         // cursor: 'cursor .6s linear infinite alternate',
-        type: 'type 1.4s ease-out .4s infinite alternate both',
+        type: 'type 1.2s ease-out .4s infinite alternate both',
       },
       keyframes: {
         type: {

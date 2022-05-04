@@ -76,11 +76,8 @@ export default function Home() {
               </span>
               <span className="box-border inline-block w-1 h-10 ml-2 mb-2 bg-black dark:bg-white md:-mb-4 md:h-12 animate-cursor will-change"></span>
             </h2>
-            {/* <div className="text-xl font-semibold md:text-3xl">
-              developer by choice and designer for fun
-            </div> */}
           </header>
-          <p className="text-left w-11/12 pl-4">
+          <p className="text-left font-montserrat w-11/12 pl-4">
             I am a growing front-end developer with a keen interest in learning
             backend programming in python. I have worked on many personal sample
             website projects with HTML5, CSS3, JavaScript in the past 3 years,
