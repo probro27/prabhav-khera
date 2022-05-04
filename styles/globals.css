@@ -28,6 +28,7 @@ a {
   will-change: transform;
 }
 
+
 .cursor::after {
   display: block;
   content: '';
@@ -48,3 +49,5 @@ a {
     opacity: 0;
   }
 }
+
+

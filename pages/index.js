@@ -13,12 +13,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <nav className="sm:flex sm:justify-between dark:bg-black sm:space-x-4 sm:py-6 sm:bg-gray-50 sm:w-screen sm:rounded-b-md">
-        {/* <img
-          src="./logo.png"
-          width="10%"
-          height="2%"
-          className="ml-4"
-        ></img> */}
         <div className="logo font-mono ml-4">
           <h2 className="text-3xl">
             <span className="text-blue-700 dark:text-blue-300">&lt;</span>
@@ -113,7 +107,13 @@ export default function Home() {
           </svg>
         </svg>
       </div>
-      <Projects />
+      <div>
+        <div className="title pt-16 mt-2 mb-8">
+          <h1 className="dark:text-terminal text-2xl text-center">Projects</h1>
+        </div>
+        <Projects />
+      </div>
+      
     </div>
   );
 }
