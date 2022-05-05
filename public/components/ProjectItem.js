@@ -4,11 +4,11 @@ import ProjectImage from "./ProjectImage";
 function ProjectItem(props) {
     if(props.project.id % 2 === 0){
         return (
-            <div className="flex flex justify-center items-center">
+            <div className="flex flex justify-center items-center py-8">
                
                 <div className="flex w-full sm:w-3/4 flex-col justify-center items-center">
                   <div className="w-full sm:w-11/12 flex flex-col justify-center items-center">
-                    <h1 className="text-xl dark:text-white">{props.project.name}</h1>
+                    <h1 className="text-xl dark:text-terminal">{props.project.name}</h1>
                     <p className="dark:text-white italic">{props.project.tech}</p>
                     <p className="dark:text-white">{props.project.description}</p>
                   </div>
@@ -29,7 +29,7 @@ function ProjectItem(props) {
                 </div>
                 <div className="flex w-full sm:w-3/4 flex-col justify-center items-center">
                   <div className="w-full sm:w-11/12 flex flex-col justify-center items-center">
-                    <h1 className="text-xl dark:text-white">{props.project.name}</h1>
+                    <h1 className="text-xl dark:text-terminal">{props.project.name}</h1>
                     <p className="dark:text-white italic">{props.project.tech}</p>
                     <p className="dark:text-white">{props.project.description}</p>
                   </div>

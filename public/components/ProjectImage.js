@@ -1,7 +1,7 @@
-import { LinkPreview } from '@dhaiwat10/react-link-preview';
+import Microlink from '@microlink/react'
 
 const ProjectImage = (props) => {
-  return <LinkPreview url={props.image}  width="300px" height="300px" className='card-container' showLoader="true" />;
+  return <Microlink url={props.image} />
 };
 
 export default ProjectImage;

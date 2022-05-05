@@ -123,6 +123,12 @@ export default function Home() {
         </div>
         <Works />
       </div>
+      <div>
+        <div className="title pt-16 mt-2 mb-8">
+          <h1 className="text-blue-900 font-mono dark:text-terminal text-2xl text-center">Contact Me!</h1>
+        </div>
+
+      </div>
     </div>
   );
 }

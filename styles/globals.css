@@ -50,4 +50,32 @@ a {
   }
 }
 
+.parallex {
+ position:relative;
+ /* z-index: 1; */
+}
+
+.parallex h1 p {
+  position: relative;
+}
+
+.parallex::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../public/projects.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  opacity: 0.25;
+  z-index: -1;
+}
+/* 
+.parallex h1 {
+  font-size: 55px;
+  font-weight: 700;
+} */
+
 

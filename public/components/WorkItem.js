@@ -9,7 +9,7 @@ function WorkItem(props) {
           {/* dot and horizontal line with one vertical line up and down */}
           <LineItem flag="false"></LineItem>
           <div className="flex w-full sm:w-3/4 flex-col justify-center items-center">
-            <div className="w-full sm:w-11/12 flex flex-col justify-center items-center border-4 p-8 border-blue-900 rounded-2xl">
+            <div className="w-full sm:w-11/12 flex flex-col justify-center items-center border-4 p-8 border-blue-900 dark:border-terminal rounded-2xl">
               <h1 className="text-xl dark:text-white">{props.work.company}</h1>
               <p className="dark:text-white italic">{props.work.post}</p>
               <p className="dark:text-white">{props.work.description}</p>
@@ -24,7 +24,7 @@ function WorkItem(props) {
         {/* dot and horizontal line with two vertical lines up and down */}
         <LineItem flag="true"></LineItem>
         <div className="flex w-full sm:w-3/4 flex-col justify-center items-center ">
-          <div className="w-full sm:w-11/12 flex flex-col justify-center items-center border-4 p-8 border-blue-900 rounded-2xl">
+          <div className="w-full sm:w-11/12 flex flex-col justify-center items-center border-4 p-8 border-blue-900 dark:border-terminal rounded-2xl">
             <h1 className="text-xl dark:text-white">{props.work.company}</h1>
             <p className="dark:text-white italic">{props.work.post}</p>
             <p className="dark:text-white">{props.work.description}</p>
