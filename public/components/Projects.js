@@ -1,7 +1,6 @@
 import React from 'react'
 import data from './projects.json'
 import ProjectItem from './ProjectItem'
-// import '../../pages/_app'
 
 function Projects() {
     return (

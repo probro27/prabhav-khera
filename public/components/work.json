@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "company": "Mon Amour",
+        "post": "Front End Development Intern",
+        "description": "Aliqua esse ipsum duis magna dolore. Commodo irure incididunt velit mollit exercitation eu. Aliquip reprehenderit est excepteur id irure id deserunt reprehenderit. In est dolore et tempor ea cupidatat magna ipsum dolore voluptate minim. Nostrud proident ut ex esse dolor laboris excepteur eu irure. Dolore aute velit labore enim laboris amet.",
+        "image":"http://vision-frontend.herokuapp.com"
+    }, 
+    {
+        "id":2,
+        "company": "NeoTech Computer Club",
+        "post": "Founder President",
+        "description": "Aliqua esse ipsum duis magna dolore. Commodo irure incididunt velit mollit exercitation eu. Aliquip reprehenderit est excepteur id irure id deserunt reprehenderit. In est dolore et tempor ea cupidatat magna ipsum dolore voluptate minim. Nostrud proident ut ex esse dolor laboris excepteur eu irure. Dolore aute velit labore enim laboris amet.",
+        "image":"http://vision-frontend.herokuapp.com",
+        "flag": true
+    }
+]

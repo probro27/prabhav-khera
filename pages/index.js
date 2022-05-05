@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 import Projects from "../public/components/Projects";
+import Works from "../public/components/Works";
 
 export default function Home() {
   const { theme, setTheme } = useTheme("dark");
@@ -11,6 +12,9 @@ export default function Home() {
         <title>Prabhav</title>
         <meta name="description" content="Prabhav's Personal profile" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+          <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+          {/* <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet"></link> */}
       </Head>
       <nav className="sm:flex sm:justify-between dark:bg-black sm:space-x-4 sm:py-6 sm:bg-gray-50 sm:w-screen sm:rounded-b-md">
         <div className="logo font-mono ml-4">
@@ -109,11 +113,16 @@ export default function Home() {
       </div>
       <div>
         <div className="title pt-16 mt-2 mb-8">
-          <h1 className="dark:text-terminal text-2xl text-center">Projects</h1>
+          <h1 className="text-blue-900 font-mono dark:text-terminal text-2xl text-center">Projects</h1>
         </div>
         <Projects />
       </div>
-      
+      <div>
+        <div className="title pt-16 mt-2 mb-8">
+          <h1 className="text-blue-900 font-mono dark:text-terminal text-2xl text-center">Work Experience</h1>
+        </div>
+        <Works />
+      </div>
     </div>
   );
 }
