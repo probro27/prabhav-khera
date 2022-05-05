@@ -3,6 +3,7 @@ import { useTheme } from "next-themes";
 import Image from "next/image";
 import Projects from "../public/components/Projects";
 import Works from "../public/components/Works";
+import Contact from "../public/components/Contact";
 
 export default function Home() {
   const { theme, setTheme } = useTheme("dark");
@@ -119,10 +120,7 @@ export default function Home() {
         <Works />
       </div>
       <div>
-        <div className="title pt-16 mt-2 mb-8">
-          <h1 className="text-blue-900 font-mono dark:text-terminal text-2xl text-center">Contact Me!</h1>
-        </div>
-
+        <Contact />
       </div>
     </div>
   );
