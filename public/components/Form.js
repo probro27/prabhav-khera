@@ -91,6 +91,12 @@ function Form() {
             fgColor="#fff"
           />
         </div>
+        <div className="social-icon px-8">
+          <SocialIcon
+            url="mailto:prabhavkhera@hotmail.com"
+            fgColor="#fff"
+          />
+        </div>
       </div>
     </div>
   );
