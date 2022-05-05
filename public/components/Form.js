@@ -8,7 +8,7 @@ function Form() {
 
     emailjs
       .sendForm(
-        "service_by2fhwb",
+        "service_wukltj6",
         "template_qwtif5q",
         e.target,
         "user_YWPkHqBY81GgADU0UTvIf"
