@@ -1,6 +1,7 @@
 import React from "react";
 import emailjs from "emailjs-com";
 // import "./css/style.css";
+import { SocialIcon } from "react-social-icons";
 
 function Form() {
   function sendMail(e) {
@@ -26,7 +27,7 @@ function Form() {
   }
 
   return (
-    <div className="wrapper">
+    <div className="wrapper flex flex-col justify-center items-center pb-16">
       <div className="inner w-1/3">
         <form
           onSubmit={sendMail}
@@ -73,6 +74,23 @@ function Form() {
             {/* <i className="zmdi zmdi-arrow-right"></i> */}
           </input>
         </form>
+      </div>
+      <div className="social-icons flex justify-between items-center">
+        <div className="social-icon px-8">
+          <SocialIcon
+            url="https://linkedin.com/in/prabhav-khera-271b2120a"
+            fgColor="#fff"
+          />
+        </div>
+        <div className="social-icon px-8">
+          <SocialIcon url="https://github.com/probro27" fgColor="#fff" />
+        </div>
+        <div className="social-icon px-8">
+          <SocialIcon
+            url="https://www.instagram.com/kheraprabhav"
+            fgColor="#fff"
+          />
+        </div>
       </div>
     </div>
   );
