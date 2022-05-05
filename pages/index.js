@@ -14,7 +14,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
           <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-          {/* <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet"></link> */}
       </Head>
       <nav className="sm:flex sm:justify-between dark:bg-black sm:space-x-4 sm:py-6 sm:bg-gray-50 sm:w-screen sm:rounded-b-md">
         <div className="logo font-mono ml-4">
@@ -58,7 +57,6 @@ export default function Home() {
           </button>
         </div>
       </nav>
-      {/* <h1 className="text-3xl font-bold text-center underline">Hello world!</h1> */}
       <div className="flex flex-col sm:flex-row justify-around">
         <div className="flex justify-center w-full sm:w-1/2 items-center py-16">
           <div className="w-full sm:w-1/2">
@@ -112,9 +110,6 @@ export default function Home() {
         </svg>
       </div>
       <div>
-        <div className="title pt-16 mt-2 mb-8">
-          <h1 className="text-blue-900 font-mono dark:text-terminal text-2xl text-center">Projects</h1>
-        </div>
         <Projects />
       </div>
       <div>

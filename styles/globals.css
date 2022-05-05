@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -52,7 +50,6 @@ a {
 
 .parallex {
  position:relative;
- /* z-index: 1; */
 }
 
 .parallex h1 p {
@@ -72,10 +69,5 @@ a {
   opacity: 0.25;
   z-index: -1;
 }
-/* 
-.parallex h1 {
-  font-size: 55px;
-  font-weight: 700;
-} */
 
 
