@@ -1,11 +1,11 @@
 import Head from "next/head";
 import { useTheme } from "next-themes";
 import Image from "next/image";
-import Projects from "../public/components/Projects";
-import Works from "../public/components/Works";
-import Contact from "../public/components/Contact";
-import Footer from "../public/components/Footer";
-import Scroll from "../public/components/Scroll";
+import Projects from "../components/Projects";
+import Works from "../components/Works";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+import Scroll from "../components/Scroll";
 
 export default function Home() {
   const { theme, setTheme } = useTheme("dark");
@@ -63,7 +63,7 @@ export default function Home() {
       <div className="flex flex-col sm:flex-row justify-around">
         <div className="flex justify-center w-full sm:w-1/2 items-center py-16">
           <div className="w-full sm:w-1/2">
-            <Image alt="profile" src="/profile.jpg" width="80%" height="100%" layout="responsive" className="rounded-lg"></Image>
+            <Image alt="profile" src="/profile2.jpg" width="80%" height="100%" layout="responsive" className="rounded-lg"></Image>
           </div>
         </div>
         <div className="pt-16 text-center text-lg w-full sm:w-1/2">
@@ -77,20 +77,9 @@ export default function Home() {
             </h2>
           </header>
           <p className="text-left font-montserrat w-11/12 pl-4">
-            I am a growing front-end developer with a keen interest in learning
-            backend programming in python. I have worked on many personal sample
-            website projects with HTML5, CSS3, JavaScript in the past 3 years,
-            and I am learning ReactJS for the past few months. I created the
-            website for my school Model United Nations which was a state-level
-            event. The website attracted almost 30% more delegates than our
-            previous edition of the MUN. I am also a website designer as I have
-            a working knowledge of Adobe XD and can work in UI/UX design roles.
-            I have an orientation towards leadership roles as I build my
-            schools first Computer Club, which currently has more than 200
-            students as members, and I trained them in Web Development and UI/UX
-            design. I am currently interested in building new projects so I am
-            trying to take part in a lot of Hackathons and delving into
-            competitive coding.
+            I am a growing full-stack developer with a passion for building web applications. I have a strong background in back-end development and have worked on a wide range of projects. I am currently a second year student at the University of Waterloo.
+            Right now I am trying to explore the world of software development and its various features and technologies. From a middle school student who build a &ldquo;Fake Virus&rdquo; to scare my teacher, I have grown into a developer who is keen on solving problems to help people.
+            Currently, I am working with a student design team in Waterloo called Midnight Sun, where I lead my team in helping optimize the performance of a solar car. This job is not only a great learning experience but also a great opportunity to learn new technologies and work on projects that I have never seen before.
           </p>
         </div>
       </div>

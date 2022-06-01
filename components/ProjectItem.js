@@ -25,7 +25,7 @@ function ProjectItem(props) {
         return (
             <div className="flex flex justify-center items-center">
                 <div className="w-full sm:w-1/4">
-                    <ProjectImage image={props.project.image} />
+                    <ProjectImage image={props.project.image} name={props.project.name}/>
                 </div>
                 <div className="flex w-full sm:w-3/4 flex-col justify-center items-center">
                   <div className="w-full sm:w-11/12 flex flex-col justify-center items-center">
