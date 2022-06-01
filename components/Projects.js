@@ -6,7 +6,7 @@ function Projects() {
   return (
     <section className="parallex mt-16 pb-16">
       <div className="title pt-16 mt-2 mb-16">
-        <h1 className="text-blue-900 font-mono dark:text-terminal text-2xl text-center">
+        <h1 className="text-blue-900 font-mono dark:text-terminal text-4xl text-center">
           Projects
         </h1>
       </div>

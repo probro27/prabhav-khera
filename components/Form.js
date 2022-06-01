@@ -34,7 +34,7 @@ function Form() {
           // onSubmit={()=> this.onSubmit}
         >
           <div className="title pt-16 mt-2 mb-16">
-            <h1 className="text-blue-900 font-mono dark:text-terminal text-2xl text-center">
+            <h1 className="text-blue-900 font-mono dark:text-terminal text-4xl text-center">
               Contact Me!
             </h1>
           </div>
@@ -75,23 +75,23 @@ function Form() {
           </input>
         </form>
       </div>
-      <div className="social-icons flex justify-between items-center">
-        <div className="social-icon px-8">
+      <div className="social-icons sm:flex justify-between items-center">
+        <div className="social-icon sm:px-8 py-4">
           <SocialIcon
             url="https://linkedin.com/in/prabhav-khera-271b2120a"
             fgColor="#fff"
           />
         </div>
-        <div className="social-icon px-8">
+        <div className="social-icon sm:px-8 py-4">
           <SocialIcon url="https://github.com/probro27" fgColor="#fff" />
         </div>
-        <div className="social-icon px-8">
+        <div className="social-icon sm:px-8 py-4">
           <SocialIcon
             url="https://www.instagram.com/kheraprabhav"
             fgColor="#fff"
           />
         </div>
-        <div className="social-icon px-8">
+        <div className="social-icon sm:px-8 py-4">
           <SocialIcon
             url="mailto:prabhavkhera@hotmail.com"
             fgColor="#fff"

@@ -177,12 +177,12 @@ form > p {
   font-size: 15px;
   background: none;
   font-family: "Montserrat-SemiBold"; }
-  /* .form-control:focus, .form-control:valid {
+  .form-control:focus, .form-control:valid {
     border-bottom: 2px solid #fff; }
-    .form-control:focus + span, .form-control:valid + span {
-      transform: translateY(-22px) scale(0.8); }
+    /* .form-control:focus + span, .form-control:valid + span {
+      transform: translateY(-22px) scale(0.8); } */
       .form-control:focus + span + .border, .form-control:valid + span + .border {
-        transform: scaleX(1); } */
+        transform: scaleX(1); }
 
 textarea.form-control {
   padding-top: 10px;

@@ -4,11 +4,15 @@ import ProjectImage from "./ProjectImage";
 function ProjectItem(props) {
     if(props.project.id % 2 === 0){
         return (
-            <div className="flex flex justify-center items-center py-8">
+            <div className="sm:flex sm:justify-center sm:items-center py-8">
                
-                <div className="flex w-full sm:w-3/4 flex-col justify-center items-center">
+                <div className="sm:flex w-full sm:w-3/4 sm:flex-col sm:justify-center sm:items-center">
                   <div className="w-full sm:w-11/12 flex flex-col justify-center items-center">
-                    <h1 className="text-xl dark:text-terminal">{props.project.name}</h1>
+                    <h1 className="text-xl font-bold text-pink-600 dark:text-terminal">
+                      <a href={props.project.url}>
+                        {props.project.name}
+                      </a>
+                    </h1>
                     <p className="dark:text-white italic">{props.project.tech}</p>
                     <p className="dark:text-white">{props.project.description}</p>
                   </div>
@@ -23,13 +27,17 @@ function ProjectItem(props) {
     else{
         // return a div with preview on the left and description on the right
         return (
-            <div className="flex flex justify-center items-center">
+            <div className="sm:flex sm:justify-center sm:items-center">
                 <div className="w-full sm:w-1/4">
                     <ProjectImage image={props.project.image} name={props.project.name}/>
                 </div>
-                <div className="flex w-full sm:w-3/4 flex-col justify-center items-center">
+                <div className="sm:flex w-full sm:w-3/4 sm:flex-col sm:justify-center sm:items-center">
                   <div className="w-full sm:w-11/12 flex flex-col justify-center items-center">
-                    <h1 className="text-xl dark:text-terminal">{props.project.name}</h1>
+                    <h1 className="text-xl font-bold text-pink-600 dark:text-terminal">
+                      <a href={props.project.url}>
+                        {props.project.name}
+                      </a>  
+                    </h1>
                     <p className="dark:text-white italic">{props.project.tech}</p>
                     <p className="dark:text-white">{props.project.description}</p>
                   </div>

@@ -4,20 +4,23 @@
         "name": "Vision- The search Engine",
         "tech": "Python, BeautifulSoup, NodeJS, ExpressJS, NextJS, TailwindCSS",
         "description": "Vision is a Search Engine built from scratch and a project I am extremely proud of. It consists of a web crawler that takes in websites using a Breadth First Search algorithm and then stores the data in a MongoDB database with a custom indexing algorithm. The user can then search for a specific keyword and the results will be displayed on the click of the button!",
-        "image":"/vision.png"
+        "image":"/vision.png",
+        "url":"https://vision-frontend.herokuapp.com"
     }, 
     {
         "id":2,
         "name": "SentimentSongs",
         "tech":"Scikit-Learn, Librosa, Flask, Python, NextJS, TailwindCSS, TypeScript, Spotify API",
         "description":"We have built a Machine Learning model that has the ability to recognize emotions through audio. We have used Librosa to extract the features of the audio file, inlcuding MFCC, chroma and mel information. We have used Scikit Learn MLPClassfier in order to train the model using the RAVDESS dataset of audio recordings and their sentiments.",
-        "image":"/SentimentSongs.png"
+        "image":"/SentimentSongs.png",
+        "url":"https://emotion-recog-frontend.vercel.app"
     },
     {
         "id":3,
         "name": "UnErrata - An errata manager",
         "tech":"C#, .NET Core 6.0, MySQL, NextJS, ChakraUI",
         "description": "Authors and writers can sign up on our website and register their books. At the same time, students and educators can also sign up and post errors related to those books as and when they come across them. Authors have the authority to view all the errors related to their books and give a decision regarding whether the error was a valid or invalid one. In the former case, the author can proceed to correct that error in future editions of their book.",
-        "image":"/unerrata.png"
+        "image":"/unerrata.png",
+        "url":"https://devpost.com/software/errata-manager"
     }
 ]

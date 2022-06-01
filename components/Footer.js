@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <div className="py-8">
         <div className="row">
-          <div className="copyright">&copy; Prabhav Khera</div>
+          <div className="copyright text-black dark:text-white">&copy; 2022 Prabhav Khera</div>
         </div>
       </div>
     </footer>
