@@ -3,14 +3,14 @@
         "id":2,
         "company": "Midnight Sun",
         "post": "Project Manager - Strategy Sub-Team",
-        "description": "Aliqua esse ipsum duis magna dolore. Commodo irure incididunt velit mollit exercitation eu. Aliquip reprehenderit est excepteur id irure id deserunt reprehenderit. In est dolore et tempor ea cupidatat magna ipsum dolore voluptate minim. Nostrud proident ut ex esse dolor laboris excepteur eu irure. Dolore aute velit labore enim laboris amet.",
+        "description": " Midnight Sun is working on building a solar car. Worked with optimization team to help improve vehicle performance from the solar and car data. Worked on the power budget by collaborating with other sub-teams.Assisted in discussions with other sub-teams regarding solar array testing to help strategy team understand the data we need for optimization.",
         "image":"http://vision-frontend.herokuapp.com"
     },
     {
         "id":2,
         "company": "Mon Amour",
         "post": "Front End Development Intern",
-        "description": "Aliqua esse ipsum duis magna dolore. Commodo irure incididunt velit mollit exercitation eu. Aliquip reprehenderit est excepteur id irure id deserunt reprehenderit. In est dolore et tempor ea cupidatat magna ipsum dolore voluptate minim. Nostrud proident ut ex esse dolor laboris excepteur eu irure. Dolore aute velit labore enim laboris amet.",
+        "description": "Developed the front-end of the company website from scratch using ReactJS involving dynamic routing to product pages and creating designs using React-Slick and Material UI Incorporated a filter functionality on the site’s search service to allow 30% users to have improved search results. Simplified end-user tax management by determining the most cost-effective APIs that reported user location, and presented it to upper management",
         "image":"http://vision-frontend.herokuapp.com",
         "flag": true
     }

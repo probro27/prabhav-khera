@@ -28,12 +28,13 @@ export default function Home() {
         </div>
         <div className="flex justify-center items-center">
           {[
-            ["Home", "/dashboard", 1],
-            ["Projects", "/projects", 2],
-            ["Contact", "/contact", 3],
+            ["Home", "#home", 1],
+            ["Projects", "#projects", 2],
+            ["Works", "#works", 3],
+            ["Contact", "#contact", 3],
           ].map(([title, url, index]) => (
             <a
-              // href={url}
+              href={url}
               className="px-3 py-2 text-blue-500 dark:text-rose-300 dark:hover:text-black font-semibold text-xl hover:font-bold hover:decoration-4 dark:hover:text-rose-500 duration-250 border-b-2 border-double border-transparent hover:border-current cursor-pointer select-none"
               key={index}
             >
@@ -41,7 +42,7 @@ export default function Home() {
             </a>
           ))}
         </div>
-        <div className="px-4 flex justify-center items-center">
+        <div className="px-4 flex justify-center items-center" id="home">
           <button
             aria-label="Toggle Dark Mode"
             type="button"
@@ -101,14 +102,13 @@ export default function Home() {
           </svg>
         </svg>
       </div>
-      <div>
+      <div id="projects">
         <Projects />
       </div>
-      <div>
-        
+      <div id="works">
         <Works />
       </div>
-      <div>
+      <div id="contact">
         <Contact />
       </div>
       <Footer />
